@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108">
+  <defs>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DA4CBE"/>
+      <stop offset="1" stop-color="#C42CA6"/>
+    </linearGradient>
+    <linearGradient id="yarn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF5FC"/>
+      <stop offset="1" stop-color="#F7DDF1"/>
+    </linearGradient>
+  </defs>
+  <g id="bg">
+    <rect width="108" height="108" fill="url(#ground)"/>
+    <ellipse cx="82" cy="20" rx="50" ry="32" fill="#E86BCF" opacity="0.35"/>
+  </g>
+  <!-- One plum knitting needle rising 22 degrees to the right (ball knob lower left, long gentle taper
+       to the point upper right), three near-white stitch loops wrapped round it behind the shaft, and a
+       plum locking stitch marker hanging from the taper on its pin. Everything sits inside r=30 of (54,54). -->
+  <g id="fg">
+    <g transform="translate(1.0,1.4)" opacity="0.22">
+      <ellipse cx="38.24" cy="65.37" rx="3.4" ry="7.2" transform="rotate(-10 38.24 65.37)" fill="none" stroke="#5A0F4C" stroke-width="3.1"/>
+      <ellipse cx="47.97" cy="61.43" rx="3.4" ry="7.2" transform="rotate(-10 47.97 61.43)" fill="none" stroke="#5A0F4C" stroke-width="3.1"/>
+      <ellipse cx="57.71" cy="57.5" rx="3.4" ry="7.2" transform="rotate(-10 57.71 57.5)" fill="none" stroke="#5A0F4C" stroke-width="3.1"/>
+      <path d="M33.6,63.24 L63.27,51.25" fill="none" stroke="#5A0F4C" stroke-width="6" stroke-linecap="round"/>
+      <path d="M63.93,54.22 L77.18,45.63 L61.68,48.66 Z" fill="#5A0F4C" stroke="#5A0F4C" stroke-width="1" stroke-linejoin="round"/>
+      <circle cx="31.75" cy="63.99" r="4.6" fill="#5A0F4C"/>
+      <path d="M69.76,48.63 L69.76,53.63" fill="none" stroke="#5A0F4C" stroke-width="2.2" stroke-linecap="round"/>
+      <circle cx="69.76" cy="58.63" r="5.0" fill="none" stroke="#5A0F4C" stroke-width="3.4"/>
+    </g>
+    <ellipse cx="38.24" cy="65.37" rx="3.4" ry="7.2" transform="rotate(-10 38.24 65.37)" fill="none" stroke="url(#yarn)" stroke-width="3.1"/>
+    <ellipse cx="47.97" cy="61.43" rx="3.4" ry="7.2" transform="rotate(-10 47.97 61.43)" fill="none" stroke="url(#yarn)" stroke-width="3.1"/>
+    <ellipse cx="57.71" cy="57.5" rx="3.4" ry="7.2" transform="rotate(-10 57.71 57.5)" fill="none" stroke="url(#yarn)" stroke-width="3.1"/>
+    <path d="M33.6,63.24 L63.27,51.25" fill="none" stroke="#3A0E33" stroke-width="6" stroke-linecap="round"/>
+    <path d="M63.93,54.22 L77.18,45.63 L61.68,48.66 Z" fill="#3A0E33" stroke="#3A0E33" stroke-width="1" stroke-linejoin="round"/>
+    <circle cx="31.75" cy="63.99" r="4.6" fill="#3A0E33"/>
+    <path d="M33.85,61.2 L61.67,49.96" fill="none" stroke="#7A3C6D" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M69.76,48.63 L69.76,53.63" fill="none" stroke="#3A0E33" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="69.76" cy="58.63" r="5.0" fill="none" stroke="#3A0E33" stroke-width="3.4"/>
+  </g>
+  <g id="mono">
+    <ellipse cx="38.24" cy="65.37" rx="3.4" ry="7.2" transform="rotate(-10 38.24 65.37)" fill="none" stroke="#000000" stroke-width="3.1"/>
+    <ellipse cx="47.97" cy="61.43" rx="3.4" ry="7.2" transform="rotate(-10 47.97 61.43)" fill="none" stroke="#000000" stroke-width="3.1"/>
+    <ellipse cx="57.71" cy="57.5" rx="3.4" ry="7.2" transform="rotate(-10 57.71 57.5)" fill="none" stroke="#000000" stroke-width="3.1"/>
+    <path d="M33.6,63.24 L63.27,51.25" fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
+    <path d="M63.93,54.22 L77.18,45.63 L61.68,48.66 Z" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round"/>
+    <circle cx="31.75" cy="63.99" r="4.6" fill="#000000"/>
+    <path d="M69.76,48.63 L69.76,53.63" fill="none" stroke="#000000" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="69.76" cy="58.63" r="5.0" fill="none" stroke="#000000" stroke-width="3.4"/>
+  </g>
+</svg>

@@ -1,0 +1,354 @@
+<resources>
+    <string name="app_name">Rowmark</string>
+
+    <!-- Projects -->
+    <string name="projects_title">Rowmark</string>
+    <string name="projects_empty_title">Start a project</string>
+    <string name="projects_empty_body">Name the thing on your needles or hook, and count its rows while your hands stay on the yarn.</string>
+    <string name="projects_start">Start a project</string>
+    <string name="projects_new">New project</string>
+    <string name="projects_error">Could not open your projects. Restart Rowmark.</string>
+    <string name="projects_created">Project created</string>
+    <string name="projects_row_summary">Row %1$d</string>
+    <string name="projects_repeat_of">repeat %1$d of %2$d</string>
+    <string name="projects_repeat">repeat %1$d</string>
+    <string name="projects_never_worked">Not counted yet</string>
+    <string name="projects_last_worked">Last worked %1$s</string>
+    <string name="projects_settings">Settings</string>
+    <string name="projects_cover_description">Cover photo for %1$s</string>
+    <string name="projects_card_title">Following a pattern?</string>
+    <string name="projects_card_body">The unlock puts it on screen with a row ruler that moves as you count.</string>
+    <string name="projects_card_see">See the unlock</string>
+    <string name="projects_card_dismiss">Not now</string>
+    <string name="home_locked_example">Yarn stash</string>
+
+    <!-- Counter -->
+    <string name="counter_empty_hint">Tap below, or press volume up</string>
+    <string name="counter_key_hint">Volume up counts a row here, and works as usual everywhere else.</string>
+    <string name="counter_pad_label">Count a row</string>
+    <string name="counter_minus">Minus one row</string>
+    <string name="counter_undo">Undo</string>
+    <string name="counter_undone">Undone</string>
+    <string name="counter_deleted">This project was deleted.</string>
+    <string name="counter_back">Back to projects</string>
+    <string name="counter_pattern">Pattern</string>
+    <string name="counter_stats">Time and stats</string>
+    <string name="counter_more">More</string>
+    <string name="counter_edit">Edit project</string>
+    <string name="counter_add_schedule">Add schedule</string>
+    <string name="counter_schedules">Schedules</string>
+    <string name="counter_delete">Delete project</string>
+    <string name="counter_delete_confirm">Delete %1$s and every row it counted? The backup file keeps a copy if you saved one.</string>
+    <string name="counter_delete_yes">Delete project</string>
+    <string name="counter_cancel">Cancel</string>
+    <plurals name="counter_total_rows">
+        <item quantity="one">%1$d row in all</item>
+        <item quantity="other">%1$d rows in all</item>
+    </plurals>
+    <string name="counter_target_rows">%1$d of %2$d rows</string>
+    <string name="counter_of_length">of %1$d</string>
+    <string name="counter_alert_dismiss">Dismiss alert</string>
+    <string name="counter_schedule_due">%1$s now: step %2$d of %3$d</string>
+    <string name="counter_schedule_next">%1$s next at row %2$d</string>
+    <string name="counter_schedule_done">%1$s finished</string>
+    <string name="counter_talkback">%1$s %2$d</string>
+    <string name="counter_talkback_repeat">%1$s %2$d, %3$s %4$d of %5$d</string>
+    <string name="counter_notes_title">Notes</string>
+    <string name="counter_notes_empty">No notes yet. Add them in Edit project.</string>
+    <string name="counter_plus_small">Add one to %1$s</string>
+    <string name="counter_minus_small">Take one from %1$s</string>
+    <string name="counter_reset_stitch">Reset %1$s</string>
+
+    <!-- Project edit -->
+    <string name="edit_title_new">New project</string>
+    <string name="edit_title">Edit project</string>
+    <string name="edit_name">Project name</string>
+    <string name="edit_name_error">Give the project a name</string>
+    <string name="edit_craft">Craft</string>
+    <string name="craft_knitting">Knitting</string>
+    <string name="craft_crochet">Crochet</string>
+    <string name="edit_status">Status</string>
+    <string name="status_active">On the needles</string>
+    <string name="status_finished">Finished</string>
+    <string name="status_resting">Resting</string>
+    <string name="edit_needle">Needle or hook</string>
+    <string name="edit_needle_hint">4 mm circular</string>
+    <string name="edit_yarn">Yarn</string>
+    <string name="edit_yarn_hint">Brand, colourway, weight</string>
+    <string name="edit_target">Target rows</string>
+    <string name="edit_target_hint">Leave empty if there is no end row</string>
+    <string name="edit_notes">Notes</string>
+    <string name="edit_cover">Cover photo</string>
+    <string name="edit_cover_choose">Choose a photo</string>
+    <string name="edit_cover_remove">Remove photo</string>
+    <string name="edit_counters">Counters</string>
+    <string name="edit_counters_empty">Add a counter</string>
+    <string name="edit_counters_empty_body">A Row counter is all most projects need. Add a Repeat with a length and the row rolls into it by itself.</string>
+    <string name="edit_add_counter">Add a counter</string>
+    <string name="edit_counter_name">Name</string>
+    <string name="edit_counter_kind">Kind</string>
+    <string name="kind_row">Row</string>
+    <string name="kind_repeat">Repeat</string>
+    <string name="kind_section">Section</string>
+    <string name="kind_stitch">Stitch</string>
+    <string name="kind_custom">Named</string>
+    <string name="edit_counter_length">Length</string>
+    <string name="edit_counter_length_hint">Rows before it returns to 1</string>
+    <string name="edit_counter_length_error">Enter a length from 2 to 999</string>
+    <string name="edit_counter_parent">Rolls into</string>
+    <string name="edit_counter_parent_none">Nothing</string>
+    <string name="edit_counter_resets">Resets when the row counts</string>
+    <string name="edit_counter_alert">Alert every</string>
+    <string name="edit_counter_alert_hint">rows</string>
+    <string name="edit_counter_alert_error">Enter a number from 1 to 999</string>
+    <string name="edit_counter_alert_label">Alert label</string>
+    <string name="edit_counter_alert_label_hint">Cable cross</string>
+    <string name="edit_counter_remove">Remove counter</string>
+    <string name="edit_counter_done">Done</string>
+    <string name="edit_save">Save project</string>
+    <string name="edit_create">Create project</string>
+    <string name="edit_saved">Project saved</string>
+    <string name="edit_back">Back</string>
+
+    <!-- Schedules -->
+    <string name="schedule_title">Shaping schedule</string>
+    <string name="schedule_action">Action</string>
+    <string name="action_increase">Increase</string>
+    <string name="action_decrease">Decrease</string>
+    <string name="action_other">Other</string>
+    <string name="schedule_label">Label</string>
+    <string name="schedule_label_hint">Raglan increase</string>
+    <string name="schedule_from">From row</string>
+    <string name="schedule_every">Every</string>
+    <string name="schedule_times">Times</string>
+    <string name="schedule_counts">Counts on</string>
+    <string name="schedule_total_rows">Total rows</string>
+    <string name="schedule_error">Enter whole numbers of 1 or more</string>
+    <string name="schedule_save">Save schedule</string>
+    <string name="schedule_saved">Schedule saved</string>
+    <string name="schedule_delete">Delete schedule</string>
+    <string name="schedule_summary">%1$s every %2$d rows, %3$d times, from row %4$d</string>
+    <string name="schedule_read_only">Read-only until the unlock is restored; alerts paused.</string>
+
+    <!-- Pattern -->
+    <string name="pattern_title">Pattern</string>
+    <string name="pattern_empty_title">Add a PDF or photo of your pattern</string>
+    <string name="pattern_empty_body">The ruler sits on one row and climbs with every count, across pages.</string>
+    <string name="pattern_add_pdf">Add a PDF</string>
+    <string name="pattern_add_photo">Add a photo</string>
+    <string name="pattern_added">Pattern added</string>
+    <string name="pattern_password">This PDF has a password. Remove it and add the file again.</string>
+    <string name="pattern_unreadable">Could not read that file. Try a PDF or a photo.</string>
+    <string name="pattern_page_of">Page %1$d of %2$d</string>
+    <string name="pattern_prev_page">Previous page</string>
+    <string name="pattern_next_page">Next page</string>
+    <string name="pattern_step_up">Move the ruler up</string>
+    <string name="pattern_step_down">Move the ruler down</string>
+    <string name="pattern_direction_up">Reads upward</string>
+    <string name="pattern_direction_down">Reads downward</string>
+    <string name="pattern_highlighter">Highlighter</string>
+    <string name="pattern_highlighter_on">Highlighter on</string>
+    <string name="pattern_undo_stroke">Undo highlight</string>
+    <string name="pattern_delete">Remove pattern</string>
+    <string name="pattern_delete_confirm">Remove %1$s from this project? The file stays in your backup if you saved one.</string>
+    <string name="pattern_remove_yes">Remove pattern</string>
+    <string name="pattern_ruler_handle">Ruler handle</string>
+    <string name="pattern_teaser">Your PDF or photo pattern on screen, with a ruler band that moves one row every time you count.</string>
+    <string name="pattern_see_unlock">See the unlock</string>
+    <string name="pattern_read_only">Pattern pages are read-only until the unlock is restored.</string>
+    <string name="pattern_loading">Opening the page</string>
+    <string name="pattern_render_error">Could not draw this page. Add the file again.</string>
+    <string name="pattern_sample_caption">Sample chart</string>
+    <string name="pattern_row_chip">Row %1$d</string>
+    <string name="pattern_count_row">Count a row</string>
+    <string name="pattern_undo_row">Undo the last count</string>
+
+    <!-- Stats -->
+    <string name="stats_title">Time and stats</string>
+    <string name="stats_empty">Count a few rows and your sessions show here</string>
+    <string name="stats_error">Could not read the sessions. Restart Rowmark.</string>
+    <string name="stats_total_rows">Rows in all</string>
+    <string name="stats_last_worked">Last worked</string>
+    <string name="stats_active_time">Time counting</string>
+    <string name="stats_rows_per_hour">Rows per hour</string>
+    <string name="stats_rows_per_day">Rows per day, last two weeks</string>
+    <string name="stats_finish">Finish estimate</string>
+    <string name="stats_finish_days">About %1$d days at your pace</string>
+    <string name="stats_finish_today">Target reached</string>
+    <string name="stats_finish_none">Set target rows to see one</string>
+    <string name="stats_sessions">Sessions</string>
+    <plurals name="stats_session_line">
+        <item quantity="one">%1$s, %2$d row in %3$s</item>
+        <item quantity="other">%1$s, %2$d rows in %3$s</item>
+    </plurals>
+    <string name="stats_session_open">Still going</string>
+    <string name="stats_end_session">End session</string>
+    <string name="stats_session_ended">Session ended</string>
+    <string name="stats_minutes">%1$d min</string>
+    <string name="stats_hours">%1$d h %2$d min</string>
+    <string name="stats_teaser">Rows per hour and per day, a finish estimate and every session, with no history limit.</string>
+    <string name="stats_not_enough">Not enough yet</string>
+    <string name="stats_chart_description">Rows per day for the last fourteen days</string>
+
+    <!-- Stash -->
+    <string name="stash_title">Yarn stash</string>
+    <string name="stash_tab_yarn">Yarn</string>
+    <string name="stash_tab_tools">Needles and hooks</string>
+    <string name="stash_empty_yarn">Add your first yarn</string>
+    <string name="stash_empty_yarn_body">Brand, colourway and skeins, linked to the projects that use them.</string>
+    <string name="stash_empty_tools">Add your first needle or hook</string>
+    <string name="stash_empty_tools_body">Then the night you cannot find the 4 mm, Rowmark knows which project has it.</string>
+    <string name="stash_add_yarn">Add yarn</string>
+    <string name="stash_add_tool">Add a needle or hook</string>
+    <string name="stash_yarn_added">Yarn added</string>
+    <string name="stash_yarn_saved">Yarn saved</string>
+    <string name="stash_tool_added">Needle added</string>
+    <string name="stash_yarn_error">Could not save this yarn. Try again.</string>
+    <string name="stash_brand">Brand</string>
+    <string name="stash_name">Yarn name</string>
+    <string name="stash_colourway">Colourway</string>
+    <string name="stash_weight">Weight</string>
+    <string name="stash_weight_hint">DK, fingering, aran</string>
+    <string name="stash_fibre">Fibre</string>
+    <string name="stash_metres">Metres per skein</string>
+    <string name="stash_skeins">Skeins</string>
+    <string name="stash_dye_lot">Dye lot</string>
+    <string name="stash_used_in">Used in</string>
+    <string name="stash_tool_type">Type</string>
+    <string name="tool_needle">Straight needles</string>
+    <string name="tool_circular">Circular</string>
+    <string name="tool_hook">Hook</string>
+    <string name="stash_size_mm">Size in mm</string>
+    <string name="stash_count">How many</string>
+    <string name="stash_save">Save</string>
+    <string name="stash_delete">Delete</string>
+    <plurals name="stash_skeins_line">
+        <item quantity="one">%1$s skein</item>
+        <item quantity="other">%1$s skeins</item>
+    </plurals>
+    <string name="stash_mm">%1$s mm</string>
+    <string name="stash_teaser">Every skein and needle in one list, linked to the projects that use them.</string>
+    <string name="stash_sample_brand">Malabrigo Rios</string>
+    <string name="stash_sample_name">Teal Feather, worsted, 4 skeins</string>
+    <string name="stash_sample_project">Ribbed raglan</string>
+    <string name="stash_read_only">The stash is read-only until the unlock is restored.</string>
+    <string name="stash_tool_summary">%1$d in the drawer</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="theme_system">Match the system</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_counting">Counting</string>
+    <string name="settings_keep_awake">Keep the screen awake while counting</string>
+    <string name="settings_haptics">Haptic tick on every count</string>
+    <string name="settings_bell">Bell when an alert is due</string>
+    <string name="settings_alert_vibrate">Buzz when an alert is due</string>
+    <string name="settings_keys">Count with volume up, Enter and a remote</string>
+    <string name="settings_keys_body">Only while a counter is open. Everywhere else the keys work as usual.</string>
+    <string name="settings_volume_down">Volume down</string>
+    <string name="volume_down_undo">Undoes the last count</string>
+    <string name="volume_down_minus">Takes one row off</string>
+    <string name="volume_down_nothing">Does nothing</string>
+    <string name="settings_remote">Remote</string>
+    <string name="settings_test_remote">Test a remote</string>
+    <string name="settings_test_body">Press a button on your remote. Most send volume up or Enter, and both already count.</string>
+    <string name="settings_test_waiting">Waiting for a key</string>
+    <string name="settings_test_received">Last key received: %1$s</string>
+    <string name="settings_test_counts_already">This key already counts</string>
+    <string name="settings_test_use">Count with this key</string>
+    <string name="settings_test_extra">Extra count key: %1$s</string>
+    <string name="settings_test_forget">Forget the extra key</string>
+    <string name="settings_test_done">Done testing</string>
+    <string name="settings_backup">Backup</string>
+    <string name="settings_save_backup">Save backup</string>
+    <string name="settings_save_backup_body">Every project, counter, session, pattern and stash entry in one file.</string>
+    <string name="settings_restore_backup">Restore backup</string>
+    <string name="settings_backup_saved">Backup saved</string>
+    <string name="settings_backup_error">Could not write the backup. Choose another location.</string>
+    <string name="settings_backup_invalid">This file is not a Rowmark backup.</string>
+    <string name="settings_backup_restored">Backup restored</string>
+    <string name="settings_restore_title">Restore %1$d projects</string>
+    <string name="settings_restore_body">Merge keeps what is here and replaces projects with the same id. Replace wipes this phone first.</string>
+    <string name="settings_restore_merge">Merge</string>
+    <string name="settings_restore_replace">Replace</string>
+    <string name="settings_journal">Journal</string>
+    <string name="settings_export_csv">Export journal (CSV)</string>
+    <string name="settings_export_csv_body">One line per session: project, date, start, end, active minutes, rows.</string>
+    <string name="settings_journal_exported">Journal exported</string>
+    <string name="settings_journal_error">Could not write the file. Choose another location.</string>
+    <string name="settings_tile">Quick Settings tile counts on</string>
+    <string name="settings_tile_last">The last counted project</string>
+    <string name="settings_unlock">Unlock</string>
+    <string name="settings_unlock_everything">Unlock everything</string>
+    <string name="settings_unlock_body">Pattern viewer, schedules, stats, tile, CSV export and stash.</string>
+    <string name="settings_unlocked">Everything is unlocked on this phone</string>
+    <string name="settings_about">About</string>
+    <string name="settings_privacy">Privacy policy</string>
+    <string name="settings_privacy_body">Everything stays on this phone. No account, no analytics, no internet permission. The only purchase goes through the Google Play Store app, which tells Rowmark whether this Google account owns the unlock.</string>
+    <string name="settings_privacy_open">Open the policy online</string>
+    <string name="settings_support">Support email</string>
+    <string name="settings_support_body">For purchase and refund help, or anything else.</string>
+    <string name="settings_no_app">No app on this phone can open that.</string>
+    <string name="privacy_url" translatable="false">https://shayanmohd.github.io/rowmark/privacy-policy.html</string>
+    <string name="support_email" translatable="false">mohdshayan.honeybeeevals@gmail.com</string>
+
+    <!-- Widget and tile -->
+    <string name="widget_description">The last counted project with a plus one button</string>
+    <string name="widget_empty">Count a row in Rowmark first</string>
+    <string name="widget_deleted">Project deleted. Tap to choose another.</string>
+    <string name="widget_plus_text">+1</string>
+    <string name="widget_plus_description">Count a row</string>
+    <string name="tile_label">Count a row</string>
+    <string name="tile_locked">Part of the unlock</string>
+    <string name="tile_subtitle">%1$s, row %2$d</string>
+
+    <!-- Shared -->
+    <string name="common_back">Back</string>
+    <string name="common_close">Close</string>
+    <string name="common_save">Save</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_locked">Part of the unlock</string>
+    <string name="common_loading">Loading</string>
+    <string name="time_just_now">just now</string>
+    <string name="time_minutes_ago">%1$d min ago</string>
+    <string name="time_hours_ago">%1$d h ago</string>
+    <string name="time_yesterday">yesterday</string>
+    <string name="time_days_ago">%1$d days ago</string>
+
+    <!-- One-time unlock (product id full_unlock). Every line must stay true of the binary and match
+         store/listing.md. -->
+    <string name="unlock_title">Unlock everything</string>
+    <string name="unlock_close">Not now</string>
+    <string name="unlock_back">Back</string>
+    <string name="unlock_body">One payment. No subscription. Your counters stay free.</string>
+    <string-array name="unlock_features">
+        <item>Your pattern on screen, with a row ruler that moves as you count</item>
+        <item>Highlighter on pattern pages, with pinch zoom</item>
+        <item>Shaping schedules, with a bell when a step is due</item>
+        <item>Time and stats per project and session, with no history limit</item>
+        <item>A Quick Settings tile that counts a row</item>
+        <item>CSV export of the project journal</item>
+        <item>Yarn stash and needle and hook inventory</item>
+    </string-array>
+    <string name="unlock_reason_pattern">The pattern viewer is part of the unlock.</string>
+    <string name="unlock_reason_schedules">Shaping schedules are part of the unlock.</string>
+    <string name="unlock_reason_stats">Time and stats are part of the unlock.</string>
+    <string name="unlock_reason_stash">The yarn stash is part of the unlock.</string>
+    <string name="unlock_reason_csv">The CSV journal export is part of the unlock.</string>
+    <string name="unlock_reason_tile">The Quick Settings tile is part of the unlock.</string>
+    <string name="unlock_buy">Unlock for %1$s</string>
+    <string name="unlock_restore">Restore purchase</string>
+    <string name="unlock_checking">Asking Google Play</string>
+    <string name="unlock_done">Unlocked. Every feature is yours on this phone.</string>
+    <string name="unlock_pending">Payment pending. Google Play finishes it, and the unlock turns on here by itself.</string>
+    <string name="unlock_cancelled">Purchase cancelled. Nothing was charged.</string>
+    <string name="unlock_failed">Google Play did not finish the purchase. If you were charged, the unlock turns on the next time the app opens.</string>
+    <string name="unlock_not_owned">Google Play has no unlock on this account.</string>
+    <string name="unlock_unavailable">Google Play cannot sell on this phone: no Play Store, an outdated one, or purchases blocked. Everything in the free version keeps working.</string>
+    <string name="unlock_not_offered">Google Play is not offering the unlock right now. Try again in a minute.</string>
+    <string name="unlock_offline">Buying needs a connection to Google Play. Everything in the free version keeps working offline.</string>
+    <string name="unlock_no_answer">Google Play did not answer. Check the connection and try again.</string>
+    <string name="unlock_account_note">The unlock belongs to the Google account that bought it. Restore works on any phone signed in to that account.</string>
+</resources>

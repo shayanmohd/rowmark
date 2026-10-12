@@ -1,0 +1,15 @@
+{
+  "background": "#F3EEF2",
+  "text": "#241A25",
+  "frame": "#625565",
+  "font": "fonts/gabarito_variable.ttf",
+  "weight": 700,
+  "shots": [
+    { "src": "screenshots-raw/01-counter.png", "out": "screenshots/01-counter.png", "caption": "Count with a volume key or remote" },
+    { "src": "screenshots-raw/02-repeats.png", "out": "screenshots/02-repeats.png", "caption": "Rows inside repeats and sections" },
+    { "src": "screenshots-raw/03-alert.png", "out": "screenshots/03-alert.png", "caption": "A bell when the repeat comes round" },
+    { "src": "screenshots-raw/04-pattern.png", "out": "screenshots/04-pattern.png", "caption": "Unlock: a ruler on your pattern" },
+    { "src": "screenshots-raw/05-projects.png", "out": "screenshots/05-projects.png", "caption": "Pick up where you left off" },
+    { "src": "screenshots-raw/06-stats.png", "out": "screenshots/06-stats.png", "caption": "Unlock: time and rows per session" }
+  ]
+}

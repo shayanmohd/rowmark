@@ -1,0 +1,8 @@
+<resources>
+    <color name="window_background">#1A1519</color>
+    <color name="widget_skein">#251E24</color>
+    <color name="widget_ink">#EEE6EC</color>
+    <color name="widget_twist">#B3A5B2</color>
+    <color name="widget_fuchsia">#E486CF</color>
+    <color name="widget_on_fuchsia">#251E24</color>
+</resources>
