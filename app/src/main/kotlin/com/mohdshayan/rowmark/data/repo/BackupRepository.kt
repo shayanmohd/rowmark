@@ -115,6 +115,8 @@ class BackupRepository(
                     val e = zip.nextEntry ?: break
                     val name = e.name
                     when {
+                        // A zip made on a computer carries directory entries; nothing to extract.
+                        e.isDirectory -> Unit
                         name == "backup.json" -> json = zip.readBytes().toString(Charsets.UTF_8)
                         (name.startsWith("patterns/") || name.startsWith("photos/")) && !name.contains("..") -> {
                             val target = File(staging, name)
