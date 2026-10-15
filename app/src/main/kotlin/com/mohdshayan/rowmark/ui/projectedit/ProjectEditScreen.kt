@@ -16,6 +16,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -86,7 +87,7 @@ fun ProjectEditScreen(projectId: Long, onBack: () -> Unit, onCreated: (Long) -> 
             Button(
                 onClick = { viewModel.save { id, isNew -> if (isNew) onCreated(id) else onBack() } },
                 enabled = s.loaded && !s.saving,
-                modifier = Modifier.fillMaxWidth().padding(horizontal = 20.dp, vertical = 12.dp).heightIn(min = 52.dp),
+                modifier = Modifier.fillMaxWidth().navigationBarsPadding().padding(horizontal = 20.dp, vertical = 12.dp).heightIn(min = 52.dp),
             ) { Text(stringResource(if (s.isNew) R.string.edit_create else R.string.edit_save)) }
         },
     ) { padding ->
